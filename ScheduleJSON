@@ -1,0 +1,17 @@
+[
+	{
+		"Name": "Karen Scott",
+		"Role":	"Organizer",
+		"Availability":	"9am,10am,11am,2pm,3pm,5pm,6pm"
+	},
+	{
+		"Name":	"Aman Bhardwaj",
+		"Role":	"Client",
+		"Availability":	"9am,10am,11am,2pm,3pm,5pm,6pm"
+	},
+	{
+		"Name": "Ryan",
+		"Role":	"Client",
+		"Availability":	"9am,10am,11am,2pm,3pm,5pm,6pm"
+	}
+]
