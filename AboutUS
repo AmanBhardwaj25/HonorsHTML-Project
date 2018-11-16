@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>Schedule+© About Us</title>
+  <link rel = "stylesheet" href = "pet.css">
+  <style>
+    body {text-align: center; background-color: rgb(255, 255, 255)}
+                    
+  </style>
+</head>
+<body>
+  <div id ="wrapper">
+  <header>
+  <h1>Schedule+©</h1>
+  </header>
+  <nav>
+  <a href = "index.html">Home</a>
+  &nbsp;
+  <a href = "AboutUs.html">About Us</a>
+  &nbsp;
+  <a href = "contactus.html">Contact Us</a>
+  &nbsp;
+  <a href = "register.html">Register</a>
+  &nbsp;
+  <a href = "login.html">Login</a>
+  </nav>
+  <img class="img2" src= "facebook_cover_photo_2 - Copy.png">
+  <h2>About Us</h2>
+  <p>Our CES 2018 Best Utility Software Award winning program
+    Schedule+© is designed to help you efficiently schedule meetings 
+    and boost your office productivity. Say goodbye to double scheduling 
+    and missed meetings with our built in mail reminders that even work with
+    all leading smart devices supporting Android Pi and Apple iOS 12.
+    We offer plans based on how much functionality you would need.We currently
+    have 3 options to choose from all which which give you access to
+    our program's features and Schedule+© cloud for 12 months. We also offer
+    a 1 month trial period. We have special discounts for affiliated companies' employees.</p>
+    <br>
+    <br>
+    
+   <p style="text-align:center">Schedule+©<br>1999 Coit Road
+   <br>
+   Plano, TX 75075
+   <br>
+   <br>
+   888-555-5555
+   <footer id="About">
+   </p>
+   <i>Copyright</i>&nbsp&copy&nbsp<i>2018 Schedule+©</i>
+   <br>
+   <a href="">scheduler@scheduleplus.com</a>
+   </footer>
+   </div>
+</body>
+</html>
