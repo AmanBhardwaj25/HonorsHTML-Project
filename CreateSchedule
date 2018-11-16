@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+            <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+            <link rel = "stylesheet" href = "pet.css">
+
+            <title>Create Schedule</title>
+
+            <style>
+
+            </style>
+
+        <script>
+            function writeToFile(passForm)
+             {
+ 
+                    set fso = CreateObject("Scripting.FileSystemObject"); 
+                    set s   = fso.CreateTextFile("Downloads/filename.txt", True);
+
+                    var firstName = document.getElementById('firstname');
+
+                    s.writeline("available times :" );
+                    
+                    
+
+                    s.writeline("Meeting Name :" + firstName);
+
+                    if(document.getElementsByName('6am').checked = true)
+                    {
+                        s.writeline("6 am ");
+                    }
+
+                    if(document.getElementsByName('7am').checked = true)
+                    {
+                        s.writeline("7 am ");
+                    }
+
+                    if(document.getElementsByName('8am').checked = true)
+                    {
+                        s.writeline("8 am ");
+                    }
+
+                    if(document.getElementsByName('9am').checked = true)
+                    {
+                        s.writeline("9 am ");
+                    }
+
+                    if(document.getElementsByName('10am').checked = true)
+                    {
+                        s.writeline("10 am");
+                    }
+
+                    if(document.getElementsByName('11am').checked = true)
+                    {
+                        s.writeline("11 am ");
+                    }
+
+                    if(document.getElementsByName('12 pm').checked = true)
+                    {
+                        s.writeline("12 pm ");
+                    }
+
+                    if(document.getElementsByName('1pm').checked = true)
+                    {
+                        s.writeline("1 pm ");
+                    }
+
+                    if(document.getElementsByName('2pm').checked = true)
+                    {
+                        s.writeline("2 pm ");
+                    }
+
+                    if(document.getElementsByName('3pm').checked = true)
+                    {
+                        s.writeline("3 pm ");
+                    }
+
+                    if(document.getElementsByName('4pm').checked = true)
+                    {
+                        s.writeline("4 pm ");
+                    }
+
+                    if(document.getElementsByName('5pm').checked = true)
+                    {
+                        s.writeline("5 pm ");
+                    }
+
+                    if(document.getElementsByName('6pm').checked = true)
+                    {
+                        s.writeline("6 pm ");
+                    }
+
+
+                    
+
+                    s.writeline("-----------------------------");
+                    s.Close();
+                    }
+        </script>
+            
+
+    </head>
+
+    <body style="text-align:center">
+
+        <h3>
+            Create a New Schedule
+        </h3>
+
+            <form onsubmit="writeToFile(this)">
+
+                    Enter a name for the meeting <br>
+                    
+                    <input type="text" name="firstname"> <br>
+
+                    <p>Check times of availability</p>
+                    
+                    <input type="checkbox" name="6am"> 6 am &nbsp;  &nbsp;
+
+                    <input type="checkbox" name="7am"> 7 am <br>
+
+                    <input type="checkbox" name="8am"> 8 am &nbsp; &nbsp;
+
+                    <input type="checkbox" name="9am">  9 am <br>
+
+                    <input type="checkbox" name="10am"> 10 am &nbsp; &nbsp;
+
+                    <input type="checkbox" name="11am"> 11 am <br>
+
+                    <input type="checkbox" name="12pm"> 12 pm &nbsp; &nbsp;
+
+                    <input type="checkbox" name="1pm">  1 pm <br>
+
+                    <input type="checkbox" name="2pm"> 2 pm &nbsp; &nbsp;
+
+                    <input type="checkbox" name="3pm"> 3 pm <br>
+
+                    <input type="checkbox" name="4pm"> 4 pm &nbsp; &nbsp;
+
+                    <input type="checkbox" name="5pm"> 5 pm <br>
+
+                    <input type="checkbox" name="6pm"> 6 pm &nbsp; &nbsp;
+
+                    <button type="button" class="submitbtn" onclick="writeToFile()">Submit</button> 
+
+                    
+            
+                </form>
+
+    </body>
+</html>
