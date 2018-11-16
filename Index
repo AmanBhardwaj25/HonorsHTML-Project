@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>Schedule+© index</title>
+  <link rel = "stylesheet" href = "pet.css">
+</head>
+<body>
+  <div id ="wrapper">
+  <header>
+  <h1 style="text-align:center">Schedule+©</h1>
+  </header>
+  <nav style="text-align:center">
+  <a href = "index.html">Home</a>&nbsp
+  <a href = "AboutUs.html">About Us</a>&nbsp
+  <a href = "contactus.html">Contact Us</a>&nbsp
+  <a href = "register.html">Register</a>&nbsp
+  <a href = "login.html">Login</a>
+  </nav>
+  <img class="img1" src= "facebook_cover_photo_2 - Copy.png">
+  <div id = "header2">
+  <h2 style="text-align:center">Ease Your Mind</h2>
+  <p style="text-align:center">Schedule+© guarantees a seemless scheduling experience for all professionals in any industry.
+    With Schedule+© companies have reported an increase of 20% productivity in Q3 of 2018 alone.
+    Get your company in an advantage today!
+    Contact a Schedule+© representative today at scheduler@scheduleplus.com or call us at 888-555-5555.
+    For special corporate partener discount or any other discount inquiries contact your company designated Schedule+© representative for further information. <p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+  
+   <p style="text-align:center">Schedule+©<br>1999 Coit Road<br>
+   Plano, TX 75075
+   <br>
+   <br>
+   888-555-5555
+   <br>
+   </div>
+   <footer>
+   </p>
+   <i>Copyright</i>&nbsp&copy&nbsp<i>2018 Schedule+©</i>
+   <br>
+   <a href="">scheduler@scheduleplus.com</a>
+   <br>
+   <br>
+   </footer>
+</body>
+</html>
