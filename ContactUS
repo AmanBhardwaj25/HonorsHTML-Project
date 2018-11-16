@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>Schedule+© About Us</title>
+  <link rel = "stylesheet" href = "pet.css">
+  <style>
+    body {text-align: center; background-color: rgb(255, 255, 255); overflow:auto;}
+
+    button {
+    background-color: rgb(36, 82, 182);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0; 
+    border: none;
+    cursor: pointer;
+    width: 52%;
+}
+                    
+  </style>
+</head>
+<body>
+  <div id ="wrapper">
+  <header>
+  <h1>Schedule+©</h1>
+  </header>
+  <nav>
+  <a href = "index.html">Home</a>
+  &nbsp;
+  <a href = "AboutUs.html">About Us</a>
+  &nbsp;
+  <a href = "">Contact Us</a>
+  &nbsp;
+  <a href = "register.html">Register</a>
+  &nbsp;
+  <a href = "login.html">Login</a>
+  </nav>
+  <img class="img2" src= "facebook_cover_photo_2 - Copy.png">
+
+  <h2 style="text-align:center;color : #3399CC;">
+      Please reach out us using the following form for any inquries
+  </h2>
+
+    <form>
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+
+        Email:<br>
+        <input type="text" name="email"><br>
+
+        Subject:<br>
+        <input type="text" name="subject" style="width: 400px"><br>
+
+        Message:<br>
+        <input type="text" name="message" style="height: 300px;width: 600px">
+
+        <button type="submit" id="submit" onclick="location.reload()">Submit</button>
+
+    </form>
+
+    <br>
+    <br>
+    
+   <p style="text-align:center">Schedule+©<br>1999 Coit Road
+   <br>
+   Plano, TX 75075
+   <br>
+   <br>
+   888-555-5555
+   <footer id="About">
+   </p>
+   <i>Copyright</i>&nbsp&copy&nbsp<i>2018 Schedule+©</i>
+   <br>
+   <a href="">scheduler@scheduleplus.com</a>
+   </footer>
+   </div>
+</body>
+</html>
